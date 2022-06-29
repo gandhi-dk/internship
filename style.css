@@ -1,0 +1,591 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Header Section CSS */
+
+#head {
+  background: url(photo-1494548162494-384bba4ab999.avif) no-repeat center
+    right/cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.head-content {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: large;
+  padding: 10px;
+  color: #303362;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin: 0px;
+  padding: 20px 90px 20px 20px;
+  display: inline-block;
+  color: #303362;
+}
+
+a:hover {
+  background-color: #ffcab9;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.btn-view {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: inherit;
+  border: none;
+  font-size: large;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+.btn-view:hover {
+  /*background: #CDD0CB;*/
+  background: #ffcab9;
+}
+
+.section-a {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Page 1 Home Page CSS */
+
+.line {
+  border-top: 3.5px solid #f04d19;
+  width: 10%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.section-b {
+  display: flex;
+  margin-top: 20px;
+  margin: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px;
+}
+
+.content p {
+  text-align: center;
+}
+
+.content h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.content i {
+  padding: 20px;
+  color: #f04d19;
+}
+
+.section-c {
+  display: flex;
+  margin-top: 40px;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 30px;
+}
+
+.content2 h1 {
+  padding: 20px;
+}
+
+.content2 i {
+  padding: 20px;
+}
+
+.section-d {
+  display: flex;
+  margin-top: 20px;
+  margin: 50px;
+}
+
+.content3 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px;
+}
+
+.content3 p {
+  text-align: center;
+}
+
+.content3 h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.content3 i {
+  padding: 20px;
+  position: relative;
+  align-items: center;
+  color: #ffcab9;
+  background-color: #333;
+  margin-bottom: 10px;
+  transition: all 1s;
+}
+
+.content3 i:hover {
+  background-color: #f04d19;
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 0%;
+}
+
+/* Page Footer Section CSS */
+
+.section-footer {
+  display: flex;
+  padding: 20px;
+  background: #808080;
+  color: #ffffff;
+}
+
+.section-e {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px;
+  margin: 30px;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: list-item;
+  list-style: none;
+  /* padding-left: -10px; */
+}
+
+.links2 {
+  text-decoration: none;
+  margin-left: -20px;
+  padding: 20px;
+  display: inline-block;
+  color: #333;
+  font-size: 17px;
+}
+
+.links2:hover {
+  color: #333;
+}
+
+.line2 {
+  border-top: 3.5px solid #f04d19;
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.social-links a i {
+  color: #333;
+  display: flex;
+  list-style: none;
+}
+
+.social-links a i:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.company {
+  color: #333;
+  font-size: 20px;
+}
+
+.contact-info {
+  display: list-item;
+  text-decoration: none;
+  padding-left: -10px;
+  margin-left: 10px;
+}
+
+.btn-dark {
+  color: #333;
+  font-size: 18px;
+}
+
+.foot-icon {
+  padding-bottom: 20px;
+}
+
+.copy {
+  text-align: center;
+  color: #333;
+  background: #808080;
+  padding-bottom: 40px;
+}
+
+/* Page 2 About Page CSS */
+
+.about {
+  padding: 50px;
+}
+
+.line3 {
+  border-top: 3.5px solid #f04d19;
+  width: 100%;
+}
+
+.about p {
+  font-size: 25px;
+}
+
+.about img {
+  height: 300px;
+  padding-left: 150px;
+  /* padding-top: 50px;*/
+  padding-right: 50px;
+}
+
+.myself {
+  display: flex;
+  padding: 50px;
+}
+
+.myself p {
+  padding-left: 20px;
+  padding-top: 70px;
+  padding-right: 350px;
+  border-left: 2px solid #f04d19;
+  font-size: 19px;
+  background: #e9e3e3;
+  margin: 30px;
+}
+
+.award i {
+  padding: 20px;
+  /* position: relative; */
+  align-items: center;
+  color: #f04d19;
+  margin-bottom: 10px;
+}
+
+.award p {
+  font-size: 19px;
+  padding: 20px;
+}
+
+#about-p {
+  background: #808080;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+#about-p h1 {
+  text-align: center;
+  color: #e9e3e3;
+  font-size: 35px;
+  /* padding-bottom: 30px; */
+}
+
+#about-p h4 {
+  /* text-align: center; */
+  color: #e9e3e3;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#about-p .line {
+  padding-bottom: 35px;
+}
+
+#about-p #progressHTML {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+
+#about-p #progressDoneHTML {
+  height: 100%;
+  width: 0;
+  background: #f04d19;
+  transition: 3s ease 0.3s;
+  padding-bottom: 45px;
+}
+
+#about-p #progressCSS {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+
+#about-p #progressDoneCSS {
+  height: 100%;
+  width: 0;
+  background: #f04d19;
+  transition: 3s ease 0.3s;
+}
+
+#about-p #progressJS {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+
+#about-p #progressDoneJS {
+  height: 100%;
+  width: 0;
+  background: #f04d19;
+  transition: 3s ease 0.3s;
+}
+
+#about-p #progressPy {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+
+#about-p #progressDonePy {
+  height: 100%;
+  width: 0;
+  background: #f04d19;
+  transition: 3s ease 0.3s;
+}
+
+#about-p #progressJAVA {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+
+#about-p #progressDoneJAVA {
+  height: 100%;
+  width: 0;
+  background: #f04d19;
+  transition: 3s ease 0.3s;
+}
+
+.testimonial {
+  padding: 50px;
+}
+
+.testimonial h1 {
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: 19px;
+}
+
+.people {
+  /* margin: 50px; */
+  padding: 10px;
+  display: flex;
+  list-style: none;
+  /* padding: 20px; */
+  padding-left: 50px;
+}
+
+.person {
+  display: flex;
+  list-style: none;
+  width: 90%;
+  margin: 20px;
+}
+
+.test-image img {
+  height: 50px;
+  margin-right: 10px;
+  padding-left: 50px;
+}
+
+.test-div {
+  border: 2px solid #808080;
+  border-radius: 10%;
+  /* padding-right: 20px; */
+  margin: 20px;
+}
+
+.text {
+  text-align: center;
+  padding-top: 15px;
+  margin-left: -51px;
+}
+
+/* Page 3 My Work Page CSS */
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 50px;
+  margin: 40px;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.item-image img {
+  /* height: 250px; */
+  /* width: 800px; */
+  padding-left: 0px;
+  padding-right: 80px;
+  /* margin: 10px; */
+}
+
+.item-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 25%;
+  text-align: center;
+  opacity: 0;
+  z-index: 1;
+  transform: opacity ease-in-out;
+  transition-delay: ease 400ms;
+}
+
+.item:hover .item-text {
+  opacity: 1;
+}
+
+.item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #f04d19;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  transform: scale(2) translateX(65%) translateY(-58%) rotate(-45deg);
+  transition: transform 1.5s ease;
+}
+
+.item:hover::after {
+  transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+}
+
+.item:hover .item-image {
+  transform: scale(1.2);
+}
+
+.item-image {
+  transition: transform 1s ease-in-out;
+}
+
+/* Page 4 My Blog Page CSS */
+
+.hide-1,
+.hide-2 {
+  display: none;
+}
+
+.blogs {
+  padding: 20px;
+}
+
+.blog-1 {
+  padding: 20px;
+  background: #333;
+  color: #e9e3e3;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.blog-1 h2 {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.blog-1 p {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.blog-1 i {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.blog-1 button {
+  /* font-size: 30px; */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.blog-2 {
+  padding: 20px;
+  background: #ccc;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.blog-2 h2 {
+  font-size: 30px;
+  /* padding-bottom: 50px; */
+  padding: 20px;
+}
+
+.blog-2 button {
+  /* font-size: 30px; */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.blog-2 p {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.blog-2 i {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
