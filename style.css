@@ -418,6 +418,48 @@ ul {
   font-size: 19px;
 }
 
+.follower{
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  background: #ffcab9;
+  margin: -50px;
+  padding: 90px;
+}
+
+.follower p{
+  font-size: 19px;
+  color: #333;
+}
+
+.follower i{
+  padding-left: 70px;
+  color: #333;
+}
+
+.fb{
+  padding-left: 250px;
+  text-align: center;
+  padding-right: 100px;
+}
+
+.tw{
+  text-align: center;
+  padding: 10px;
+  padding-right: 100px;
+}
+
+.ig{
+  padding: 10px;
+  text-align: center;
+}
+
+.counter{
+  font-size: 40px;
+  padding: 10px;
+  color: #333;
+}
+
 .people {
   /* margin: 50px; */
   padding: 10px;
