@@ -1,3 +1,5 @@
+//Read More & Less Button
+
 const btn1 = document.querySelector("#btn1");
 const text1 = document.querySelector(".show-1");
 
@@ -22,6 +24,8 @@ function button2() {
     : (btn2.textContent = "Read More");
 }
 
+//Date & Time
+
 var date = new Date();
 
 document.getElementById("day").innerHTML = date.getDate();
@@ -31,3 +35,20 @@ document.getElementById("year").innerHTML = date.getFullYear();
 document.getElementById("day2").innerHTML = date.getDate();
 document.getElementById("month2").innerHTML = date.getMonth();
 document.getElementById("year2").innerHTML = date.getFullYear();
+
+//Blog Panel Activation
+
+var panels=document.querySelectorAll(".panel");
+
+panels.forEach((panel)=>{
+  panel.addEventListener("click",()=>{
+    removeActiveClass();
+    panel.classList.add("active");
+  });
+});
+
+function removeActiveClass(){
+  panels.forEach((panel)=>{
+    panel.classList.remove("active");
+  });
+}
